@@ -1,5 +1,5 @@
 {% set name = "ecco" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ecco-{{ version }}.tar.gz
-  sha256: a3eab7b4e6d7bd3dca960ac08cad0fbd44cf174c41ae73c9ef50be4d165e51dd
+  sha256: b0b280b3214f19fca28a74aec0e0c332693ccd3f621b79102dac69f902e1ffb2
 
 build:
   number: 0
